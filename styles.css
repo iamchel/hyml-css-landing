@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    max-width: 225px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 102px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    opacity: 0.8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: white;
+    height: 80vh;
+}
+
+.hero-content {
+    width: 654px;
+    height: 324px;
+    margin-left: 78px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    font-weight: bold;
+    color: black;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.btn-outline {
+    padding: 15px 30px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.btn:hover, .btn-outline:hover {
+    opacity: 0.8;
+}
+
+.hero-image img {
+    width: 675.54px;
+    height: 459.36px;
+    top: 213px;
+    left: 686px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.scroll{
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+    }
+}
